@@ -1,3 +1,3 @@
 W I P
 
-(alt)[Media/PFP.PNG]
+!(alt)[./Media/PFP.PNG]
