@@ -1,3 +1,3 @@
 W I P
 
-![Pfp](Media/PFP.PNG)
+<img src="Media/PFP.PNG" style="border-radius: 50%"
