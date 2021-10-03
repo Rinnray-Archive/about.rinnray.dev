@@ -1,3 +1,3 @@
 W I P
 
-!()[Media/PFP.png]
+!()[Media/PFP.PNG]
