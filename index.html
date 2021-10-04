@@ -22,7 +22,7 @@
       🚧 This page is still work in progress! 🚧
     </p>
 
-    <div class="gird place-items-center pt-8 pb-8">
+    <div class="grid place-items-center pt-8 relative">
       <div class="grid grid-cols-2 gap-1 place-items-center">
         <div>
           <img
@@ -49,8 +49,8 @@
               via-gray-800
               to-red-900
               rounded-full
-              py-5
-              px-12
+              py-4
+              px-24
               min-w-max
             "
           >
@@ -61,10 +61,10 @@
                 >@Gliroid Studios</a
               >
             </p>
-            <p class="text-lg mt-7">
+            <p class="text-lg mt-4">
               ⚠️ <span class="line-through">Might be an AI</span>
             </p>
-            <div class="mt-1 flex gap-4">
+            <div class="mt-1 flex gap-2">
               <a href="mailto: contact@gliroid.com"
                 ><img src="./static/email_icon.svg" alt="Email" width="60"
               /></a>
@@ -98,32 +98,47 @@
       </div>
 
       <div
-        class="grid grid-cols-3 grid-rows-3 gap-16 text-center mt-8 mr-28 ml-28"
+        class="
+          mr-96
+          ml-96
+          mt-8
+          pl-10
+          pr-10
+          bg-gradient-to-br
+          from-gray-600
+          via-gray-700
+          to-blue-800
+          rounded-3xl
+        "
       >
-        <div>
-          <p class="text-xl font-bold">🚷 Gender</p>
-          <p class="text-lg">Female</p>
-        </div>
-        <div>
-          <p class="text-xl font-bold">📣 Pronouns</p>
-          <p class="text-lg">She/Her</p>
-        </div>
-        <div>
-          <p class="text-xl font-bold">🌐 Language</p>
-          <p class="text-lg">🇸🇪 | 🇺🇲</p>
-        </div>
-        <div>
-          <p class="text-xl font-bold">📌 Location</p>
-          <p class="text-lg">Under the Pentagon</p>
+        <div class="grid grid-cols-3 grid-rows-3 text-center">
+          <div class="m-3">
+            <p class="text-xl font-bold">🚷 Gender</p>
+            <p class="text-lg">Female</p>
+          </div>
+          <div class="m-3">
+            <p class="text-xl font-bold">📣 Pronouns</p>
+            <p class="text-lg">She/Her</p>
+          </div>
+          <div class="m-3">
+            <p class="text-xl font-bold">🌐 Language</p>
+            <p class="text-lg">🇸🇪 | 🇺🇲</p>
+          </div>
+          <div class="m-3">
+            <p class="text-xl font-bold">📌 Location</p>
+            <p class="text-lg">Under the Pentagon</p>
+          </div>
         </div>
       </div>
+    </div>
 
-      <div class="grid grid-cols-1 place-items-center">
-        <img
-          src="https://github-readme-stats.vercel.app/api?username=rinnray&show_icons=true&theme=radical"
-          alt="Rinnray's Github stats."
-        />
-      </div>
+    <div
+      class="grid grid-cols-1 absolute bottom-4 inset-x-0 place-items-center"
+    >
+      <img
+        src="https://github-readme-stats.vercel.app/api?username=rinnray&show_icons=true&theme=radical"
+        alt="Rinnray's Github stats."
+      />
     </div>
   </body>
 </html>
