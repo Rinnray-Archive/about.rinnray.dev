@@ -1,0 +1,129 @@
+/* body {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.profile-picture {
+  border: 4px solid purple;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  margin-top: 50px;
+  border: 2px solid purple;
+  border-radius: 25%;
+}
+
+table,
+th,
+td {
+  border-style: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+} */
+
+.rainbow {
+  height: 10px;
+  border: none;
+  background-image: -webkit-gradient(
+    linear,
+    0 0,
+    100% 0,
+    from(red),
+    color-stop(0.08, orange),
+    color-stop(0.17, yellow),
+    color-stop(0.25, green),
+    color-stop(0.33, blue),
+    color-stop(0.42, indigo),
+    color-stop(0.5, violet),
+    color-stop(0.58, indigo),
+    color-stop(0.67, blue),
+    color-stop(0.75, green),
+    color-stop(0.83, yellow),
+    color-stop(0.92, orange),
+    to(red)
+  );
+  background-image: -webkit-linear-gradient(
+    left,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  background-image: -moz-linear-gradient(
+    left,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  background-image: -o-linear-gradient(
+    left,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  background-image: linear-gradient(
+    left,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  background-size: 50% auto;
+
+  -webkit-animation: unicorn 5s forwards linear infinite;
+}
+
+@-webkit-keyframes unicorn {
+  from {
+    background-position: top left;
+  }
+  to {
+    background-position: top right;
+  }
+}
